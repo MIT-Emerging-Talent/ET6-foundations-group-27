@@ -6,15 +6,16 @@ take the time to do this correctly at the beginning.
 
 ## Setup and Share a Repository
 
-As a team you will choose the name for your team and select
-someone from your team to be the repo owner. This person will fork this
-repository and configure it for collaboration:
+As a team you will choose the name for your team and select someone from your
+team to be the repo owner. This person will fork this repository and configure
+it for collaboration:
 
 - Public face of your repository
   - Change your
     [repository description](https://stackoverflow.com/questions/7757751/how-do-you-change-a-repository-description-on-github)
   - Add or remove topics from your repository
-  - Update your main README with your group name and an initial overview of your project. (You can change this as much as you want.)
+  - Update your main README with your group name and an initial overview of your
+    project. (You can change this as much as you want.)
 - Under settings in your repository select:
   - _Issues_
   - _Projects_
