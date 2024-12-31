@@ -1,4 +1,1 @@
-import unittest
-from ..quadratic_sequence import quadratic_sequence
-
-class TestAsciiCode(unittest.TestCase):
+from ..quadratic_sequence import quadratic_sequence  # noqa: F401
