@@ -122,5 +122,14 @@
       "source.fixAll.ruff": "explicit",
       "source.organizeImports.ruff": "explicit"
     }
-  }
+  },
+  "cSpell.words": [
+    "Gibril",
+    "Nouman",
+    "Osama",
+    "Rafaa",
+    "Reem",
+    "Safia",
+    "Tilal"
+  ]
 }
