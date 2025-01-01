@@ -30,7 +30,7 @@ class TestWordCountFromFile(unittest.TestCase):
         self.assertEqual(word_count_txt_file("solutions/test_multiple.txt"), 10)
 
     def test_file_not_exist(self):
-        """This method test when a file has multiple lines"""
+        """This method test when a file does not exist"""
         with self.assertRaises(AssertionError):
             word_count_txt_file("not_exist.txt")
 
