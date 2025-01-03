@@ -33,7 +33,6 @@ def even_number_count(number: list) -> int:
     assert isinstance(number, list)
     for num in number:
         assert isinstance(num, int)
-
     count = 0
 
     for num in number:
