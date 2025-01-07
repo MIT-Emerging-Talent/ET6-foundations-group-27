@@ -55,7 +55,8 @@ about: A template PR for code review with a checklist
 - [ ] The function's name describes it's behavior
 - [ ] The function's name matches the file name
 - [ ] The function has correct type annotations
-- [ ] The function is not called in the function file
+- [ ] The function is not called at the top level of the function file 
+  - _Recursive solutions **can** call the function from **inside** the function body_
 
 ## Strategy
 
