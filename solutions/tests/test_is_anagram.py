@@ -8,7 +8,7 @@ Test categories:
     - Edge cases: empty strings, equal lengths
     - Defensive tests: invalid inputs
 
-Created on 2024-01-02
+Created on: 2024-01-02
 Author: Reem Osama
 """
 

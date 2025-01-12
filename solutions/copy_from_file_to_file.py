@@ -1,6 +1,7 @@
 #!/user/bin/env python3
 # *-* coding: utf-8 *-*
 """
+
 This module copies content from one file to another.
 
 Module contents:

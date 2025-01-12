@@ -13,6 +13,9 @@ Returns:
 Raises:
     AssertionError: If the source file does not exist
     AssertionError: If the source or destination file is not a .txt file
+
+Created on: 22-December-2024
+@Author: Saja AbuSafia
 """
 
 import unittest
