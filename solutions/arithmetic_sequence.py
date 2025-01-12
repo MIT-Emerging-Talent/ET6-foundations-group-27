@@ -47,7 +47,3 @@ def arithmetic_sequence(sequence_length: int) -> list:
         sequence.append(sequence[-1] + 3)
 
     return sequence
-
-
-if __name__ == "__main__":
-    print(arithmetic_sequence(20))

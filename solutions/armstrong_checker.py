@@ -39,4 +39,5 @@ def armstrong_checker(number: int) -> str:
     # armstrong_sum is the sum of the nth power of each digit in the number
 
     return "True" if armstrong_sum == number else "False"
-    # if the sum of the nth power of each digit in the number is equal to the number, return "True", otherwise return "False"
+    # if the sum of the nth power of each digit in the number
+    # is equal to the number, return "True", otherwise return "False"
