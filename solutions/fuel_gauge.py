@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-"""module calculates the percentage of fuel in a tank
-and returns a status indicator."""
-=======
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """module calculates the percentage of fuel in a tank and returns a status indicator.
 Created on Sunday/29/December/2024
 Author: Ahmed Elhassan"""
->>>>>>> 30d157832e3def89289453b26ff2fdd600bc5e6e
 
 
 def fuel_gauge(fuel_amount: int, tank_capacity: int) -> str:
