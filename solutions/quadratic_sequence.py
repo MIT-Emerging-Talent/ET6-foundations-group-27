@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 The function is create quadratic sequence based on formula: A(n): a*n^2 + b*n + c
 given a,b,c and n are integers.And returns the list containing the quadratic sequence.
