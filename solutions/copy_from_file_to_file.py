@@ -37,15 +37,15 @@ def copy_file_to_file(source_file: str, destination_file: str) -> None:
 
     """
     # Defensive checks
-    assert os.path.exists(
-        source_file
-    ), f"Error: Source file '{source_file}' doesn't exist."
-    assert source_file.endswith(
-        ".txt"
-    ), f"Error: Source file '{source_file}' is not a .txt file."
-    assert destination_file.endswith(
-        ".txt"
-    ), f"Error: Destination file '{destination_file}' is not a .txt file."
+    assert os.path.exists(source_file), (
+        f"Error: Source file '{source_file}' doesn't exist."
+    )
+    assert source_file.endswith(".txt"), (
+        f"Error: Source file '{source_file}' is not a .txt file."
+    )
+    assert destination_file.endswith(".txt"), (
+        f"Error: Destination file '{destination_file}' is not a .txt file."
+    )
 
     # Copy operation: Open the source file in read mode
     with open(source_file, "r") as file_from:
