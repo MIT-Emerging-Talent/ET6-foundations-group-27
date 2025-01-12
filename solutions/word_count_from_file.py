@@ -8,7 +8,7 @@ Module contents:
     - Input: `.txt` file to read the content from.
     - Output: Total number of words in the file.
 
-Created on 30 Dec 2024
+Created on 30-Dec-2024
 @author: Saja Abusafia
 """
 

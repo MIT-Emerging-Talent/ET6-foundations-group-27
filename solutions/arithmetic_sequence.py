@@ -4,9 +4,9 @@
 A module for generating a sequence for arithmetic numbers
 
 Module contents:
-    - arithmetic_sequence:generating a sequence of n arithmetic numbers.
+    -arithmetic_sequence:generating a sequence of n arithmetic numbers.
 
-Created on Sunday/22/December/2024
+Created on Sunday 22/December/2024
 @author:Mayar Ali
 """
 

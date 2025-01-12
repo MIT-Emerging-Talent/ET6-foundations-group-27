@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Testing the functin fuel_gauge
+"""
+
 import unittest
 
 from ..fuel_gauge import fuel_gauge

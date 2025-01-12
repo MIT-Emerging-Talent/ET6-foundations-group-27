@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Module checks if a number is an Armstrong number.
+"""
+Module checks if a number is an Armstrong number.
 Created on 2025-01-02
 Author: Ahmed
 """

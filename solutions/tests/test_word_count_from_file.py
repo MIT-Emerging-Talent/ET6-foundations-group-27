@@ -9,6 +9,7 @@ Tests the following scenarios:
     - Word count for a file with multiple lines.
     - Assertion errors for non-existent files.
     - Assertion errors for non-.txt files.
+
 """
 
 import unittest
