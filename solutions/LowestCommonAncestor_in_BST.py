@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 This module for Lowest_Common_Ancestor_in Binary Search Tree function.
 Author: Safia Gibril
