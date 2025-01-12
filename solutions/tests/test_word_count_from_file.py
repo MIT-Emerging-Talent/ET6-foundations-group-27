@@ -1,6 +1,7 @@
 #!/user/bin/env python3
 # *-* coding: utf-8 *-*
 """
+
 Unit tests for the `word_count_txt_file` function.
 
 Tests the following scenarios:

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Testing the functin fuel_gauge
+
 """
 
 import unittest
