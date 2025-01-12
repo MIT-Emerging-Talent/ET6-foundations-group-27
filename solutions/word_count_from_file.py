@@ -1,3 +1,5 @@
+#!/user/bin/env python3
+# *-* coding: utf-8 *-*
 """
 A Module for counting the number of words in a .txt file.
 
@@ -42,7 +44,7 @@ def word_count_txt_file(file_name) -> int:
     )
 
     # Open the file safely
-    f = open(file_name, "r")
+    f = open(file_name, "r", encoding="utf-8")
     file_size = os.path.getsize(file_name)
 
     # Return 0 if the file is empty

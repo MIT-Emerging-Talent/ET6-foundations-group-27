@@ -1,3 +1,5 @@
+#!/user/bin/env python3
+# *-* coding: utf-8 *-*
 """
 This module copies content from one file to another.
 
@@ -48,11 +50,11 @@ def copy_file_to_file(source_file: str, destination_file: str) -> None:
     )
 
     # Copy operation: Open the source file in read mode
-    with open(source_file, "r") as file_from:
+    with open(source_file, "r", encoding="utf-8") as file_from:
         # Read the entire content of the source file
         file_content = file_from.read()
 
     # Open the destination file in write mode
-    with open(destination_file, "w") as file_to:
+    with open(destination_file, "w", encoding="utf-8") as file_to:
         # Write the content read from the source file into the destination file
         file_to.write(file_content)
