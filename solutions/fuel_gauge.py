@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """module calculates the percentage of fuel in a tank and returns a status indicator.
 Created on Sunday/29/December/2024
 Author: Ahmed Elhassan"""
