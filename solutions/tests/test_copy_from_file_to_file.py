@@ -33,8 +33,8 @@ class TestCopyFromFileToFile(unittest.TestCase):
 
         # Open both files and check if the content matches
         with (
-            open("solutions/source.txt", "r") as source,
-            open("solutions/destination.txt", "r") as destination,
+            open(source_file, "r", encoding="utf-8") as source,
+            open(destination_file, "r", encoding="utf-8") as destination,
         ):
             # Assert that content of the source is identical to the destination
             self.assertEqual(source.read(), destination.read())
@@ -49,8 +49,8 @@ class TestCopyFromFileToFile(unittest.TestCase):
 
         # Open both files and compare their content
         with (
-            open("solutions/source.txt", "r") as source,
-            open("solutions/destination.txt", "r") as destination,
+            open(source_file, "r", encoding="utf-8") as source,
+            open(destination_file, "r", encoding="utf-8") as destination,
         ):
             # Assert that content of the source is identical to the destination
             self.assertEqual(source.read(), destination.read())
@@ -71,8 +71,8 @@ class TestCopyFromFileToFile(unittest.TestCase):
 
         # Open both files and compare their content
         with (
-            open("solutions/empty.txt", "r") as source,
-            open("solutions/destination.txt", "r") as destination,
+            open(source_file, "r", encoding="utf-8") as source,
+            open(destination_file, "r", encoding="utf-8") as destination,
         ):
             # Assert that both the source and destination are empty(no content)
             self.assertEqual(source.read(), destination.read())

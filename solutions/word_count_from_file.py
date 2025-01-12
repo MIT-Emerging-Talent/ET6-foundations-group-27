@@ -44,7 +44,7 @@ def word_count_txt_file(file_name) -> int:
     ), f"Error: The file '{file_name}' does not have a .txt extension."
 
     # Open the file safely
-    f = open(file_name, "r")
+    f = open(file_name, "r", encoding="utf-8")
     file_size = os.path.getsize(file_name)
 
     # Return 0 if the file is empty
