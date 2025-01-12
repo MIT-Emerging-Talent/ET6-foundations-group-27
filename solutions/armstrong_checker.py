@@ -3,7 +3,7 @@
 """
 Module checks if a number is an Armstrong number.
 Created on 2025-01-02
-Author: Ahmed
+Author: Ahmed Goutbi
 """
 
 

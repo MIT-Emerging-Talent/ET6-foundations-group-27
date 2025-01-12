@@ -15,7 +15,7 @@ Raises:
     AssertionError: If the source or destination file is not a .txt file
 
 Created on: 22-December-2024
-@Author: Saja AbuSafia
+Author: Saja AbuSafia
 """
 
 import unittest
