@@ -1,7 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
 Module: generate a game welcome message
 
-the Module provides a function that generates a welcome message for a player joining a game.
+the module provides a function that generates a welcome message for a player joining a game.
 
 Author: Mohamed Tilal
 Created date: 6.1.2025
