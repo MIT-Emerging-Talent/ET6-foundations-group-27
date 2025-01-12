@@ -3,7 +3,7 @@
   //-------- Editor configuration --------
 
   // Controls auto save of editors that have unsaved changes.: https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
 
   // Format a file on save. A formatter must be available.
   "editor.formatOnSave": true,
@@ -124,6 +124,15 @@
     }
   },
   "cSpell.words": [
-    "Mayar"
+    "Gibril",
+    "Nouman",
+    "Osama",
+    "Rafaa",
+    "Reem",
+    "Safia",
+    "Mayar",
+    "Tilal"
+    "Mayar",
+    "Testdraw"
   ]
 }

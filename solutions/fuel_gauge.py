@@ -1,14 +1,22 @@
+<<<<<<< HEAD
 """module calculates the percentage of fuel in a tank
 and returns a status indicator."""
+=======
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""module calculates the percentage of fuel in a tank and returns a status indicator.
+Created on Sunday/29/December/2024
+Author: Ahmed Elhassan"""
+>>>>>>> 30d157832e3def89289453b26ff2fdd600bc5e6e
 
 
-def fuel_gauge(x: int, y: int) -> str:
+def fuel_gauge(fuel_amount: int, tank_capacity: int) -> str:
     """
     Calculates the percentage of fuel in a tank and returns a status indicator.
 
     Parameters:
-        x (int): Fuel in the tank (must be ≤ y).
-        y (int): Tank capacity (must be > 0).
+        fuel_amount (int): Fuel in the tank (must be ≤ tank_capacity).
+        tank_capacity (int): Tank capacity (must be > 0).
 
     Returns:
         str:
@@ -18,7 +26,7 @@ def fuel_gauge(x: int, y: int) -> str:
             - "Invalid input" for invalid inputs.
 
     Raises:
-        AssertionError: If y <= 0 or x > y.
+        AssertionError: If tank_capacity <= 0 or fuel_amount > tank_capacity.
 
     Examples:
         >>> fuel_gauge(90, 100)
@@ -28,13 +36,13 @@ def fuel_gauge(x: int, y: int) -> str:
         >>> fuel_gauge(50, 100)
         'M'
     """
-    if y == 0 or x > y:
-        return "Invalid input"
+    if tank_capacity <= 0 or fuel_amount > tank_capacity:
+        raise AssertionError("Invalid tank capacity or fuel amount")
 
-    percentage = (x / y) * 100
+    percentage = (fuel_amount / tank_capacity) * 100
+
     if percentage >= 90:
         return "F"
-    elif percentage <= 10:
+    if percentage <= 10:
         return "E"
-    else:
-        return "M"
+    return "M"
