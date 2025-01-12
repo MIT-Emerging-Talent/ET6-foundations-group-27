@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 """
 Creates a sequence where numbers divisible by 4 return 'Foo',
 numbers divisible by 6 return 'Bar', numbers divisible by both

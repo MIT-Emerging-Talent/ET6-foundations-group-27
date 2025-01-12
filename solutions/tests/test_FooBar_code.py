@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 """Test module for FooBar_code function"""
 
 import unittest
