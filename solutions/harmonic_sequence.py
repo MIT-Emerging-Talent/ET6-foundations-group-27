@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Creates harmonic sequence, based on formula: A(n): 1/ (a +(n-1) *d)
 given a, d and n are integers. and returns
 the list containing the harmonic sequence.
