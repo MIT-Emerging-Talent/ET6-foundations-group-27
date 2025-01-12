@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
 module'draw': it prints a triangle pattern made of stars (*).
 
