@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 factorial calculator,
 This module provides a function to calculate the factorial of a given non-negative integer.

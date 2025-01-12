@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """unit tests for the factorial function in the factorial calculator module"""
 
 # Ayham

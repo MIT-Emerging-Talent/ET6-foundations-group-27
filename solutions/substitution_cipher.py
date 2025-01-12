@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Substitution Cipher
 this code provides a function to encrypt text using a caesar cipher,
