@@ -15,7 +15,10 @@ Created on Sunday/22/December/2024
 
 def arithmetic_sequence(sequence_length: int) -> list:
     """
-         list in which the difference between consecutive terms is constant.
+         Return a list in which the difference between,
+           consecutive terms are constant.
+
+
         Parameters:
         sequence_length:int, greater than zero
 
@@ -39,7 +42,7 @@ def arithmetic_sequence(sequence_length: int) -> list:
     if sequence_length == 0:
         return []
     if sequence_length == 1:
-        return [1]
+        return [0]
     if sequence_length == 2:
         return [0, 1]
     sequence = [0, 1]
