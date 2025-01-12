@@ -14,14 +14,9 @@ class TestFuelGauge(unittest.TestCase):
         self.assertEqual(fuel_gauge(90, 100), "F")
 
     def test_empty(self):
-<<<<<<< HEAD
         """Test cases where the percentage is 10%
         or less it should result E."""
         self.assertEqual(fuel_gauge(10, 100), "E")
-=======
-        """Test cases where the percentage is 10% or less it should result E."""
->>>>>>> 30d157832e3def89289453b26ff2fdd600bc5e6e
-        self.assertEqual(fuel_gauge(0, 100), "E")
 
     def test_percentage(self):
         """Test cases where the result is between 90 and 10 it should be M."""
