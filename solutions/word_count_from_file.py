@@ -37,9 +37,9 @@ def word_count_txt_file(file_name) -> int:
 
     # Defensive assertions
     assert os.path.exists(file_name), f"Error:file '{file_name}' doesn't exist"
-    assert file_name.endswith(
-        ".txt"
-    ), f"Error: The file '{file_name}' does not have a .txt extension."
+    assert file_name.endswith(".txt"), (
+        f"Error: The file '{file_name}' does not have a .txt extension."
+    )
 
     # Open the file safely
     f = open(file_name, "r")
