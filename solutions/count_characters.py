@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 """
 Creates a function that counts the number of vowels (a, e, i, o, u) in a given string.
 The function is case-insensitive, meaning both uppercase and lowercase vowels are counted.

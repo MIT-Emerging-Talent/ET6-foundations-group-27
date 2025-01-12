@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 """
 test_count_characters.py
 this module contains unit tests for the 'count_characters'
