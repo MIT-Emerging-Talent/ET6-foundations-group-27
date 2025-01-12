@@ -1,3 +1,5 @@
+#!/user/bin/env python3
+# *-* coding: utf-8 *-*
 """
 This function copies content from one file to another.
 
@@ -6,7 +8,7 @@ Parameters:
     destination_file (str): The file to write the content to
 
 Returns:
-    None: The function performs the copying operation but does not return anything
+    None: The function performs the copying process but doesn't return anything
 
 Raises:
     AssertionError: If the source file does not exist
@@ -50,11 +52,11 @@ class TestCopyFromFileToFile(unittest.TestCase):
             open("solutions/source.txt", "r") as source,
             open("solutions/destination.txt", "r") as destination,
         ):
-            # Assert that  content of the source is identical to the destination
+            # Assert that content of the source is identical to the destination
             self.assertEqual(source.read(), destination.read())
 
     def test_not_a_txt_file(self):
-        """It raises an assertion error if the source file is not a .txt file"""
+        """It raises an assertion error if the source file isn't a .txt file"""
         with self.assertRaises(AssertionError):
             # Call the function with a source file that is not a .txt file
             copy_file_to_file("solutions/Source.", "solutions/destination.txt")
@@ -72,7 +74,7 @@ class TestCopyFromFileToFile(unittest.TestCase):
             open("solutions/empty.txt", "r") as source,
             open("solutions/destination.txt", "r") as destination,
         ):
-            # Assert that both the source and destination are empty (no content)
+            # Assert that both the source and destination are empty(no content)
             self.assertEqual(source.read(), destination.read())
 
     def test_src_not_exist(self):
